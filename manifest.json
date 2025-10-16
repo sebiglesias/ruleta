@@ -7,8 +7,8 @@
   "theme_color": "#facc15",
   "icons": [
     {
-      "src": "icon-80.png",
-      "sizes": "160x160",
+      "src": "icon-128.png",
+      "sizes": "128x128",
       "type": "image/png"
     }
   ],
