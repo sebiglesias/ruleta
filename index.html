@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruleta PWA</title>
+    <link rel="manifest" href="manifest.json">
+    <script defer src="app.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 1em;
+            background: #fffbea;
+            max-width: 500px;
+            margin: auto;
+        }
+        h2 { color: #b45309; }
+        input, button {
+            padding: 0.5em;
+            margin: 0.3em 0;
+            width: 100%;
+        }
+        ul { list-style: none; padding: 0; }
+        li {
+            margin: 0.3em 0;
+            background: #fff4ce;
+            padding: 0.5em;
+            border-radius: 8px;
+        }
+        small { color: gray; }
+    </style>
+</head>
+<body>
+<h2>Ruleta</h2>
+
+<form id="reminder-form">
+    <input type="time" id="time" required>
+    <input type="text" id="message" placeholder="Mensaje" required>
+    <button>Agregar</button>
+</form>
+
+<ul id="reminders"></ul>
+
+<small>Permite notificaciones y agrega la app al inicio. Solo se activan de lunes a viernes.</small>
+</body>
+</html>
