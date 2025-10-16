@@ -1,7 +1,7 @@
 self.addEventListener("install", e => {
     e.waitUntil(
         caches.open("ruleta-cache").then(cache =>
-            cache.addAll(["./", "./index.html", "./app.js", "./manifest.json", "./icon-192.png"])
+            cache.addAll(["./", "./index.html", "./app.js", "./manifest.json", "./icon-256.png"])
         )
     );
     self.skipWaiting();
