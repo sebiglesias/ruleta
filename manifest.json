@@ -11,5 +11,19 @@
       "sizes": "160x160",
       "type": "image/png"
     }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshot.png",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop view of my PWA"
+    },
+    {
+      "src": "images/screenshot.png",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile view of my PWA"
+    }
   ]
 }
