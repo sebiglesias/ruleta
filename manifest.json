@@ -5,6 +5,7 @@
   "display": "standalone",
   "background_color": "#fffbea",
   "theme_color": "#facc15",
+  "permissions": ["notifications"],
   "icons": [
     {
       "src": "icon-256.png",
