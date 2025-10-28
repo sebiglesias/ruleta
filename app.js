@@ -1,6 +1,5 @@
 const defaultReminders = [
     { time: "08:20", message: "A Claro Pay" },
-    { time: "12:00", message: "En Ualá / Fima (tope 1.500.000)" },
     { time: "13:15", message: "A Personal Pay" },
     { time: "14:35", message: "A Ualá FCI" },
     { time: "16:45", message: "A Mercado Pago" },
